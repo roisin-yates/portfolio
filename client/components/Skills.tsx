@@ -1,7 +1,7 @@
 const Skills = () => {
   return (
     <div className="mx-10 mt-36 flex">
-      <div className="mx-10 w-1/2 bg-slate-50">
+      <div className="mx-10 w-1/2 bg-slate-50 p-6">
         <h2 className="font-Roboto text-4xl">About Me</h2>
         <p className="font-Roboto text-xl">
           I&apos;m a Front-End Developer with an eye for sleek, modern, and
