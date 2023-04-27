@@ -1,9 +1,16 @@
+import {
+  FaGamepad,
+  FaHiking,
+  FaDog,
+  FaSeedling,
+  FaHeadphonesAlt,
+} from 'react-icons/fa'
+
 const Skills = () => {
   return (
     <>
       <div className="mx-10 mt-36 flex">
-        <div className="border-t-16 mx-10 w-1/2 rounded-lg bg-slate-100 p-6">
-          <p className="ml-2 text-slate-500">Introduction</p>
+        <div className="border-t-16 mx-10 w-1/2 rounded-lg bg-gradient-to-b from-slate-100 to-white p-6">
           <h2 className="mb-10 font-GlitchGoblin text-4xl font-bold">
             About Me
           </h2>
@@ -16,6 +23,33 @@ const Skills = () => {
             I am excited to bring my experience and enthusiasm to a dynamic and
             innovative engineering team, where I can continue to learn and grow.
           </p>
+          <p className="mt-6 font-Roboto text-xl text-slate-600">
+            When I&apos;m not coding, you can usually find me:
+          </p>
+          <div className="mt-10 flex justify-evenly">
+            <div className="flex w-24 flex-col">
+              <FaGamepad className="ml-auto mr-auto text-6xl" />
+              <p className="text-center text-slate-500">Playing video games</p>
+            </div>
+            <div className="flex w-24 flex-col">
+              <FaHiking className="ml-auto mr-auto text-6xl" />
+              <p className="text-center text-slate-500">Hiking</p>
+            </div>
+            <div className="flex w-24 flex-col">
+              <FaDog className="ml-auto mr-auto text-6xl" />
+              <p className="text-center text-slate-500">With my dog, Bess</p>
+            </div>
+            <div className="flex w-24 flex-col">
+              <FaSeedling className="ml-auto mr-auto text-6xl" />
+              <p className="text-center text-slate-500">Gardening</p>
+            </div>
+            <div className="flex w-24 flex-col">
+              <FaHeadphonesAlt className="ml-auto mr-auto text-6xl" />
+              <p className="text-center text-slate-500">
+                Listening to emo music
+              </p>
+            </div>
+          </div>
         </div>
         <div className="mx-10 flex w-1/2 flex-wrap justify-around">
           <img
