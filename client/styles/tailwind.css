@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'glitch-goblin';
+  src: url('/server/public/fonts/GlitchGoblin-2O87v.ttf') format('truetype');
+};
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('/server/public/fonts/Roboto-Regular.ttf') format('truetype')
+}

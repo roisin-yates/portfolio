@@ -2,7 +2,15 @@
 module.exports = {
   content: ['./client/**/*.{tsx,css}', './server/public/**/*.{html,css}'],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        GlitchGoblin: ['glitch-goblin', 'sans-serif'],
+        Roboto: ['Roboto', 'sans-serif'],
+      },
+      backgroundImage: {
+        'glitch-background': "url('/server/public/img/glitch-background.png')",
+      },
+    },
   },
   plugins: [],
 }
