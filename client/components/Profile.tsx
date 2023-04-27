@@ -11,7 +11,7 @@ const Profile = () => {
         </div>
       </div>
       <div className="w-1/2">
-        <img className="w-100" src="./img/profile-image.png" alt="" />
+        <img className="w-100" src="./img/profile-image.png" alt="me, Roisin" />
       </div>
     </div>
   )
