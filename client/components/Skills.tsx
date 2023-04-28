@@ -4,7 +4,21 @@ import {
   FaDog,
   FaSeedling,
   FaHeadphonesAlt,
+  FaReact,
+  FaNode,
 } from 'react-icons/fa'
+
+import { TbBrandRedux, TbBrandTypescript, TbBrandHtml5 } from 'react-icons/tb'
+import {
+  SiJavascript,
+  SiCss3,
+  SiTailwindcss,
+  SiBulma,
+  SiExpress,
+  SiSqlite,
+  SiPostgresql,
+  SiJest,
+} from 'react-icons/si'
 
 const Skills = () => {
   return (
@@ -51,54 +65,91 @@ const Skills = () => {
             </div>
           </div>
         </div>
-        <div className="mx-10 flex w-1/2 flex-wrap justify-around">
-          <img
-            src="./img/React-icon.svg.png"
-            alt="React logo"
-            className="m-4 h-24"
-          />
-          <img src="./img/logo.png" alt="Redux logo" className="m-4 h-24" />
-          <img
-            src="./img/2560px-Node.js_logo.svg.png"
-            alt="Node.js logo"
-            className="m-4 h-24"
-          />
+        <div className="mx-10 flex w-1/2 flex-wrap content-center justify-center">
+          <div className="block-inline my-2 mx-1 flex rounded-xl bg-orange-600 py-2 px-4">
+            <h3 className="flex self-center font-Roboto text-xl font-bold text-orange-100">
+              <FaReact className="mr-4 self-center" aria-hidden="true" /> React
+            </h3>
+          </div>
+          <div className="block-inline my-2 mx-1 flex rounded-xl bg-orange-600 py-2 px-4">
+            <h3 className="flex font-Roboto text-xl font-bold text-orange-100">
+              <TbBrandTypescript
+                className="mr-4 self-center"
+                aria-hidden="true"
+              />
+              Typescript
+            </h3>
+          </div>
+          <div className="block-inline my-2 mx-1 flex rounded-xl bg-orange-600 py-2 px-4">
+            <h3 className="flex font-Roboto text-xl font-bold text-orange-100">
+              <TbBrandRedux className="mr-4 self-center" aria-hidden="true" />
+              Redux
+            </h3>
+          </div>
+          <div className="block-inline my-2 mx-1 flex rounded-xl bg-orange-600 py-2 px-4">
+            <h3 className="flex font-Roboto text-xl font-bold text-orange-100">
+              <FaNode className="mr-4 self-center" aria-hidden="true" /> Node.js
+            </h3>
+          </div>
+          <div className="block-inline my-2 mx-1 flex rounded-xl bg-orange-600 py-2 px-4">
+            <h3 className="flex font-Roboto text-xl font-bold text-orange-100">
+              <FaReact className="mr-4 self-center" aria-hidden="true" /> React
+              Native
+            </h3>
+          </div>
+          <div className="block-inline my-2 mx-1 flex rounded-xl bg-orange-600 py-2 px-4">
+            <h3 className="flex font-Roboto text-xl font-bold text-orange-100">
+              <SiJavascript className="mr-4 self-center" aria-hidden="true" />
+              Javascript
+            </h3>
+          </div>
+          <div className="block-inline my-2 mx-1 flex rounded-xl bg-orange-600 py-2 px-4">
+            <h3 className="flex font-Roboto text-xl font-bold text-orange-100">
+              <TbBrandHtml5 className="mr-4 self-center" aria-hidden="true" />
+              HTML5
+            </h3>
+          </div>
+          <div className="block-inline my-2 mx-1 flex rounded-xl bg-orange-600 py-2 px-4">
+            <h3 className="flex font-Roboto text-xl font-bold text-orange-100">
+              <SiCss3 className="mr-4 self-center" aria-hidden="true" /> CSS3
+            </h3>
+          </div>
 
-          <img
-            src="./img/JavaScript-logo.png"
-            alt="Javascript logo"
-            className="m-4 h-24"
-          />
-          <img
-            src="./img/tailwindcss-mark.79614a5f61617ba49a0891494521226b.svg"
-            alt="Tailwind CSS logo"
-            className="m-4 h-24"
-          />
-          <img
-            src="./img/HTML5_logo_and_wordmark.svg.png"
-            alt="HTML5 logo"
-            className="m-4 h-24"
-          />
-          <img
-            src="./img/CSS3_logo_and_wordmark.svg.png"
-            alt="CSS3 logo"
-            className="m-4 h-24"
-          />
-          <img
-            src="./img/Bulma-Logo.png"
-            alt="Bulma logo"
-            className="m-4 h-24"
-          />
-          <img
-            src="./img/Expressjs.png"
-            alt="Express.js logo"
-            className="m-4 h-24"
-          />
-          <img
-            src="./img/SQLite370.svg.png"
-            alt="Sqlite3 logo"
-            className="m-4 h-24"
-          />
+          <div className="block-inline my-2 mx-1 flex rounded-xl bg-orange-600 py-2 px-4">
+            <h3 className="flex font-Roboto text-xl font-bold text-orange-100">
+              <SiTailwindcss className="mr-4 self-center" aria-hidden="true" />
+              TailwindCSS
+            </h3>
+          </div>
+          <div className="block-inline my-2 mx-1 flex rounded-xl bg-orange-600 py-2 px-4">
+            <h3 className="flex font-Roboto text-xl font-bold text-orange-100">
+              <SiBulma className="mr-4 self-center" aria-hidden="true" /> Bulma
+            </h3>
+          </div>
+
+          <div className="block-inline my-2 mx-1 flex rounded-xl bg-orange-600 py-2 px-4">
+            <h3 className="flex font-Roboto text-xl font-bold text-orange-100">
+              <SiExpress className="mr-4 self-center" aria-hidden="true" />
+              Express.js
+            </h3>
+          </div>
+          <div className="block-inline my-2 mx-1 flex rounded-xl bg-orange-600 py-2 px-4">
+            <h3 className="flex font-Roboto text-xl font-bold text-orange-100">
+              <SiSqlite className="mr-4 self-center" aria-hidden="true" />
+              SQLite
+            </h3>
+          </div>
+          <div className="block-inline my-2 mx-1 flex rounded-xl bg-orange-600 py-2 px-4">
+            <h3 className="flex font-Roboto text-xl font-bold text-orange-100">
+              <SiPostgresql className="mr-4 self-center" aria-hidden="true" />
+              PostgreSQL
+            </h3>
+          </div>
+          <div className="block-inline my-2 mx-1 flex rounded-xl bg-orange-600 py-2 px-4">
+            <h3 className="flex font-Roboto text-xl font-bold text-orange-100">
+              <SiJest className="mr-4 self-center" aria-hidden="true" /> Jest
+            </h3>
+          </div>
         </div>
       </div>
     </>

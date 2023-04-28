@@ -1,6 +1,7 @@
 import Profile from './Profile'
 import Header from './Header'
 import Skills from './Skills'
+import Projects from './Projects'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <Profile />
       </div>
       <Skills />
+      <Projects />
     </>
   )
 }
