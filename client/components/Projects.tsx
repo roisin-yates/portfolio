@@ -5,7 +5,7 @@ import { FaGithub, FaYoutube } from 'react-icons/fa'
 
 const Projects = () => {
   return (
-    <div className="mt-72 justify-center bg-gradient-to-tl from-slate-200 to-white pt-10">
+    <div className="mt-72 justify-center bg-gradient-to-tl from-slate-200 to-white pt-10 pb-56">
       <div className="flex flex-col justify-center">
         <h2 className="mx-5 bg-gradient-to-tr from-orange-600 to-orange-300 bg-clip-text text-center font-GlitchGoblin text-6xl text-transparent">
           My projects
