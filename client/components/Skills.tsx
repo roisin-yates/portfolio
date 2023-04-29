@@ -23,8 +23,8 @@ import {
 const Skills = () => {
   return (
     <>
-      <div className="mx-10 mt-36 flex">
-        <div className="border-t-16 mx-10 w-1/2 rounded-lg bg-gradient-to-b from-slate-100 to-white p-6">
+      <div className="skills mx-10 mt-36 flex">
+        <div className="border-t-16 about mx-10 w-1/2 rounded-lg bg-gradient-to-b from-slate-100 to-white p-6">
           <h2 className="mb-10 font-GlitchGoblin text-4xl font-bold">
             About Me
           </h2>
@@ -40,9 +40,9 @@ const Skills = () => {
           <p className="mt-6 font-Roboto text-xl text-slate-600">
             When I&apos;m not coding, you can usually find me:
           </p>
-          <div className="mt-10 flex justify-evenly">
+          <div className="interests mt-10 flex justify-evenly">
             <div className="flex w-24 flex-col">
-              <FaGamepad className="ml-auto mr-auto text-6xl" />
+              <FaGamepad className="icons ml-auto mr-auto text-6xl" />
               <p className="text-center text-slate-500">Playing video games</p>
             </div>
             <div className="flex w-24 flex-col">
@@ -65,7 +65,7 @@ const Skills = () => {
             </div>
           </div>
         </div>
-        <div className="mx-10 flex w-1/2 flex-wrap content-center justify-center">
+        <div className="languages mx-10 flex w-1/2 flex-wrap content-center justify-center">
           <div className="block-inline my-2 mx-1 flex rounded-xl bg-orange-600 py-2 px-4">
             <h3 className="flex self-center font-Roboto text-xl font-bold text-orange-100">
               <FaReact className="mr-4 self-center" aria-hidden="true" /> React
