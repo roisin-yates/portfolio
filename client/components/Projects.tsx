@@ -12,7 +12,7 @@ const Projects = () => {
         </h2>
         <div className="my-4 flex w-1/2 items-center self-center">
           <div className="h-0.5 w-96 flex-1 border-t bg-orange-600"></div>
-          <div className=" px-4 font-Roboto text-orange-600">
+          <div className=" px-4 font-Roboto text-orange-600 sm-screen:text-green-400">
             Some of my recent work
           </div>
           <div className="h-0.5 w-96 flex-1 border-b bg-orange-600"></div>

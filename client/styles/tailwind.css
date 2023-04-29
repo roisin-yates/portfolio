@@ -11,3 +11,23 @@
   font-family: 'Roboto';
   src: url('/server/public/fonts/Roboto-Regular.ttf') format('truetype')
 }
+
+
+@media only screen and (max-width: 600px) {
+  .profile{
+    flex-direction: column-reverse;
+    justify-content: center;
+    text-align: center;
+  }
+  .profile h2 {
+    font-size: 4rem;
+    padding-left: 0px;
+  }
+  .img-div {
+    margin-left:auto;
+    margin-right: auto;
+  }
+  .profile  img {
+    width: 300px;
+  }
+}
