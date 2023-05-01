@@ -6,6 +6,7 @@ import {
   FaHeadphonesAlt,
   FaReact,
   FaNode,
+  FaCloudDownloadAlt,
 } from 'react-icons/fa'
 
 import { TbBrandRedux, TbBrandTypescript, TbBrandHtml5 } from 'react-icons/tb'
@@ -25,9 +26,15 @@ const Skills = () => {
     <>
       <div className="mx-5 mt-36 flex flex-col lg:mx-10 lg:flex-row">
         <div className="border-t-16 w-full rounded-lg bg-gradient-to-b from-slate-100 to-white p-6 lg:mx-10 lg:w-1/2">
-          <h2 className="mb-10 font-GlitchGoblin text-4xl font-bold">
-            About Me
-          </h2>
+          <h2 className="font-GlitchGoblin text-4xl font-bold">About Me</h2>
+          <a
+            href="./pdf/Roisin-Yates-CV.pdf"
+            download="Roisin-Yates-CV.pdf"
+            className="mb-10 flex bg-gradient-to-br from-orange-700 to-orange-400 bg-clip-text p-2 font-Roboto font-bold text-transparent"
+          >
+            <FaCloudDownloadAlt className="mr-2 self-center text-orange-600" />
+            <p>Download my CV</p>
+          </a>
           <p className="font-Roboto text-xl text-slate-600">
             I&apos;m a Front-End Developer with an eye for sleek, modern, and
             intuitive design. I am passionate about creating user interfaces

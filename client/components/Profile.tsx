@@ -13,7 +13,7 @@ const Profile = () => {
             </h3>
           </div>
         </div>
-        <div className="max-w-2/3 min-w-96 mx-auto">
+        <div className="mx-auto md:w-1/2">
           <img
             className="w-full"
             src="./img/profile-image.png"
