@@ -3,7 +3,7 @@ module.exports = {
   content: ['./client/**/*.{tsx,css}', './server/public/**/*.{html,css}'],
   theme: {
     screens: {
-      xs: '260px',
+      xs: '593px',
       sm: '680px',
       md: '880px',
       lg: '1000px',

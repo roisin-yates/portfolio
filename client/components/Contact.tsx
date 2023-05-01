@@ -17,21 +17,22 @@ const Contact = () => {
   }
 
   return (
-    <div className="flex justify-between bg-gradient-to-tr from-orange-600 to-orange-300 py-10">
-      <div className="mx-36 flex w-1/3 flex-col justify-center">
-        <div>
+    <div className="flex flex-col-reverse justify-center bg-gradient-to-tr from-orange-600 to-orange-300 py-10 xs:justify-between lg:flex-row">
+      <div className="mx-16 flex  flex-row flex-wrap justify-between xs:justify-around lg:mx-36 lg:w-1/3 lg:flex-col lg:justify-center">
+        <div className="mx-3 mt-10 lg:mx-0 lg:mt-0">
           <h3 className="flex font-Roboto text-xl font-bold text-orange-100">
             <MdEmail className="mr-3 self-center text-2xl" /> Email
           </h3>
           <p className="ml-3 text-orange-200">roisinyatesdev@outlook.com</p>
         </div>
-        <div className="mt-10">
+        <div className="mx-3 mt-10 lg:mx-0">
           <h3 className="flex font-Roboto text-xl font-bold text-orange-100">
-            <MdLocationPin className="mr-3 self-center text-2xl" /> Location
+            <MdLocationPin className="mr-3 self-center text-2xl" />
+            Location
           </h3>
           <p className="ml-3 text-orange-200">Auckland, New Zealand</p>
         </div>
-        <div className="mt-10">
+        <div className="mx-3 mt-10 lg:mx-0">
           <h3 className="flex font-Roboto text-xl font-bold text-orange-100">
             <FaClock className="mr-3 self-center text-2xl" /> Working hours
           </h3>
@@ -39,7 +40,7 @@ const Contact = () => {
           <p className="ml-3 text-orange-200">Mon-Fri 8:30am-6:00pm NZST</p>
         </div>
 
-        <div className="mt-24 flex w-48 justify-evenly">
+        <div className="mt-24 flex w-full justify-evenly xs:mx-16 lg:mx-0 lg:w-48">
           <a
             href="https://github.com/roisin-yates"
             className="text-4xl"
@@ -58,7 +59,7 @@ const Contact = () => {
       </div>
       <form
         onSubmit={handleSubmit}
-        className="mx-10 flex w-1/2 flex-col rounded-xl"
+        className="mx-10 mb-16 flex flex-col rounded-xl lg:w-1/2 "
       >
         <h2 className="mb-10 text-center font-GlitchGoblin text-5xl text-orange-700">
           Get in touch
