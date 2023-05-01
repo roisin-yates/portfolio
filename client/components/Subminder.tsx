@@ -6,7 +6,10 @@ import { CgWebsite } from 'react-icons/cg'
 
 const Subminder = () => {
   return (
-    <div className="mt-24 flex flex-col items-center rounded-xl bg-white p-10 ">
+    <div
+      className="mt-24 flex flex-col items-center rounded-xl bg-white p-10"
+      id="subminder"
+    >
       <div className="flex w-full justify-center xl:justify-end">
         <div className=" w-full text-center xl:w-1/2">
           <h3 className="text-center font-Roboto text-4xl font-bold text-orange-600">
