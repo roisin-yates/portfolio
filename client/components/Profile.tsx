@@ -9,7 +9,7 @@ const Profile = () => {
               I&apos;m Roisin
             </h2>
             <h3 className="inline-block overflow-visible bg-glitch-background bg-cover py-2 px-4 font-Roboto text-6xl font-bold text-slate-200">
-              Front End Developer
+              Full Stack Developer
             </h3>
           </div>
         </div>

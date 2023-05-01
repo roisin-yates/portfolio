@@ -36,7 +36,7 @@ const Skills = () => {
             <p>Download my CV</p>
           </a>
           <p className="font-Roboto text-xl text-slate-600">
-            I&apos;m a Front-End Developer with an eye for sleek, modern, and
+            I&apos;m a Full-stack Developer with an eye for sleek, modern, and
             intuitive design. I am passionate about creating user interfaces
             that not only look great, but also function flawlessly.
           </p>
