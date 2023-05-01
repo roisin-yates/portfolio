@@ -2,6 +2,7 @@ import { FaReact, FaNode } from 'react-icons/fa'
 import { TbBrandRedux, TbBrandTypescript } from 'react-icons/tb'
 import { SiTailwindcss, SiExpress, SiSqlite } from 'react-icons/si'
 import { FaGithub, FaYoutube } from 'react-icons/fa'
+import { CgWebsite } from 'react-icons/cg'
 
 const Projects = () => {
   return (
@@ -112,6 +113,13 @@ const Projects = () => {
               </div>
               <div className="mt-16 flex flex-wrap content-center justify-center">
                 <a
+                  href="https://subminder-production.up.railway.app"
+                  className="ml-4 text-4xl"
+                  aria-label="deployed subminder website"
+                >
+                  <CgWebsite />
+                </a>
+                <a
                   href="https://github.com/tohora-2023/SubMinder/tree/dev"
                   className="ml-4 text-4xl"
                   aria-label="github profile"
@@ -121,7 +129,7 @@ const Projects = () => {
                 <a
                   href="https://www.youtube.com/watch?v=kEox7HKehNU"
                   className="ml-4 text-4xl"
-                  aria-label="github profile"
+                  aria-label="youtube video"
                 >
                   <FaYoutube />
                 </a>
