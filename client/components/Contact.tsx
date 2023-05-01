@@ -17,7 +17,7 @@ const Contact = () => {
   }
 
   return (
-    <div className="flex flex-col-reverse justify-center bg-gradient-to-tr from-orange-600 to-orange-300 py-10 xs:justify-between lg:flex-row">
+    <div className="flex flex-col-reverse justify-center bg-gradient-to-tr from-orange-600 to-orange-300 py-10 xs:justify-between lg:flex-row xl:px-16 2xl:px-24">
       <div className="mx-16 flex  flex-row flex-wrap justify-between xs:justify-around lg:mx-36 lg:w-1/3 lg:flex-col lg:justify-center">
         <div className="mx-3 mt-10 lg:mx-0 lg:mt-0">
           <h3 className="flex font-Roboto text-xl font-bold text-orange-100">
