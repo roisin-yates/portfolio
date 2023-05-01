@@ -73,7 +73,7 @@ const Contact = () => {
         <input
           type="text"
           id="name"
-          className="w-1/2 rounded-xl py-2 px-5 text-orange-700"
+          className="w-2/3 rounded-xl py-2 px-5 text-orange-700 xs:w-1/2"
           placeholder="Joe Smith"
           value={name}
           onChange={(e) => setName(e.target.value)}
@@ -88,7 +88,7 @@ const Contact = () => {
         <input
           type="text"
           id="email"
-          className="w-1/2 rounded-xl py-2 px-5 text-orange-700 "
+          className="w-2/3 rounded-xl py-2 px-5 text-orange-700 xs:w-1/2 "
           placeholder="joesmith@email.com"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
