@@ -1,3 +1,4 @@
+import Calmly from './Calmly'
 import Subminder from './Subminder'
 
 const Projects = () => {
@@ -15,8 +16,9 @@ const Projects = () => {
           <div className="h-0.5 w-96 flex-1 border-b bg-orange-600"></div>
         </div>
       </div>
-      <div className="mx-5 flex content-center justify-center lg:mx-auto lg:w-3/4">
+      <div className="mx-5 flex flex-col content-center justify-center lg:mx-auto lg:w-3/4">
         <Subminder />
+        <Calmly />
       </div>
     </div>
   )
