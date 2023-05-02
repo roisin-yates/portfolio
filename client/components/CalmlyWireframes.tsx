@@ -2,7 +2,13 @@ import { SiShopify, SiFigma, SiGoogle } from 'react-icons/si'
 
 const CalmlyWireframes = () => {
   return (
-    <div className="flex w-full flex-col justify-center xl:flex-row xl:justify-between">
+    <div className="flex w-full flex-col justify-center xl:flex-row-reverse xl:justify-between">
+      <div className="min-w-300px mx-auto w-full xl:w-1/2">
+        <img
+          src="./img/calmly-wireframe.png"
+          alt="Figma wireframes for the calmly website"
+        />
+      </div>
       <div className="w-full xl:mr-10 xl:w-1/2">
         <h3 className="mt-10 text-lg font-bold text-orange-600 lg:mt-0 xl:text-right">
           User Interface
@@ -51,12 +57,6 @@ const CalmlyWireframes = () => {
             <SiFigma />
           </a>
         </div>
-      </div>
-      <div className="min-w-300px mx-auto w-full xl:w-1/2">
-        <img
-          src="./img/calmly-wireframe.png"
-          alt="Figma wireframes for the calmly website"
-        />
       </div>
     </div>
   )
