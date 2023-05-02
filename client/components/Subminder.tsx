@@ -29,12 +29,13 @@ const Subminder = () => {
         </div>
         <div className="w-full xl:ml-10 xl:w-1/2">
           <p className=" mt-10 font-Roboto text-slate-700 lg:mt-20">
-            I collaborated with a team of five to develop a subscription and
-            payment management site as part of our final project at Dev Academy.
-            The site includes secure Auth0 login, the ability to create, edit,
-            and delete paid subscriptions or free trials, view upcoming and past
-            payments, and sign up for email reminders. I also built a prototype
-            in React Native for a mobile app using static data.
+            I collaborated with a team of five others to develop a subscription
+            and payment management site as part of our final project at Dev
+            Academy. The site includes secure Auth0 login, the ability to
+            create, edit, and delete paid subscriptions or free trials, view
+            upcoming and past payments, and sign up for email reminders. I also
+            built a prototype in React Native for a mobile app using static
+            data.
           </p>
           <h3 className="my-4 text-center font-bold">Stack</h3>
           <div className="flex flex-wrap content-center justify-center xl:mx-10">
