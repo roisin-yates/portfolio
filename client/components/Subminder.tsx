@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import SubminderProject from './SubminderProject'
-import SubminderWireframes from './Subminder-wireframes'
+import SubminderWireframes from './SubminderWireframes'
 
 const Subminder = () => {
   const [view, setView] = useState('project')
