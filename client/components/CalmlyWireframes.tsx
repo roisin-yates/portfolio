@@ -44,7 +44,7 @@ const CalmlyWireframes = () => {
         </div>
         <div className="mt-16 flex flex-wrap content-center justify-center">
           <a
-            href="https://www.figma.com/file/5w5tp5649qRpLIpCvCwsQt/Subminder?node-id=0%3A1&t=K0c28yGw25SrcYrF-1"
+            href="https://www.figma.com/file/5X1D5TCLXrHIukKLkLbmrr/Calmly?node-id=0%3A1&t=JegNaY9U4s3tjiug-1"
             className="ml-4 text-4xl"
             aria-label="Figma wireframes"
           >
