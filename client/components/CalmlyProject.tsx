@@ -1,12 +1,6 @@
 import { FaReact, FaNode } from 'react-icons/fa'
 import { TbBrandRedux, TbBrandTypescript } from 'react-icons/tb'
-import {
-  SiTailwindcss,
-  SiExpress,
-  SiSqlite,
-  SiPostgresql,
-  SiBulma,
-} from 'react-icons/si'
+import { SiExpress, SiSqlite, SiPostgresql, SiBulma } from 'react-icons/si'
 import { FaGithub, FaYoutube } from 'react-icons/fa'
 import { useState } from 'react'
 
