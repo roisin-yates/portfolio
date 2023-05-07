@@ -87,9 +87,9 @@ const SubminderProject = () => {
             <CgWebsite />
           </a>
           <a
-            href="https://github.com/tohora-2023/SubMinder/tree/dev"
+            href="https://github.com/SubMinder-Group-Project/SubMinder"
             className="ml-4 text-4xl"
-            aria-label="github profile"
+            aria-label="subminder github repository"
           >
             <FaGithub />
           </a>
