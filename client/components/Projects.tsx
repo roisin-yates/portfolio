@@ -1,4 +1,5 @@
 import Calmly from './Calmly'
+import Current from './Current'
 import Subminder from './Subminder'
 
 const Projects = () => {
@@ -10,8 +11,18 @@ const Projects = () => {
         </h2>
         <div className="my-4 flex w-full items-center self-center px-10 sm:w-1/2 sm:px-0">
           <div className="h-0.5 w-96 flex-1 border-t bg-orange-600"></div>
+          <div className=" px-4 text-center font-Roboto text-orange-600">
+            Sneak peak at what I&apos;m currently working on
+          </div>
+          <div className="h-0.5 w-96 flex-1 border-b bg-orange-600"></div>
+        </div>
+        <div className="mx-5 flex flex-col content-center justify-center lg:mx-auto lg:w-3/4">
+          <Current />
+        </div>
+        <div className="my-4 flex w-full items-center self-center px-10 sm:w-1/2 sm:px-0">
+          <div className="h-0.5 w-96 flex-1 border-t bg-orange-600"></div>
           <div className=" px-4 font-Roboto text-orange-600">
-            Some of my recent work
+            Some of my recent completed work
           </div>
           <div className="h-0.5 w-96 flex-1 border-b bg-orange-600"></div>
         </div>
