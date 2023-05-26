@@ -14,7 +14,7 @@ const Header = () => {
             <FaGithub />
           </a>
           <a
-            href="https://www.linkedin.com/in/roisin-yates-89b212218/"
+            href="https://www.linkedin.com/in/roisin-yates/"
             className="mx-3 text-4xl"
             aria-label="linkedin profile"
           >

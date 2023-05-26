@@ -49,7 +49,7 @@ const Contact = () => {
             <FaGithub />
           </a>
           <a
-            href="https://www.linkedin.com/in/roisin-yates-89b212218/"
+            href="https://www.linkedin.com/in/roisin-yates/"
             className="text-4xl"
             aria-label="linkedin profile"
           >
